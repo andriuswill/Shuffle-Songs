@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#372637</color>
+    <color name="colorPrimaryDark">#352330</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="gradient_start">#372637</color>
+    <color name="gradient_center">#432b3b</color>
+    <color name="gradient_end">#c35e6c</color>
+
+    <color name="toolbar">#462e3e</color>
+    <color name="main">#372637</color>
+    <color name="track_title">#dc6875</color>
+    <color name="track_artist">#fef8f9</color>
+    <color name="track_line">#33FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+
 </resources>

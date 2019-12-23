@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Shuffle-Songs</string>
+    <string name="app_name">Shuffle Songs</string>
+    <string name="erro_tracks">Ops… Erro ao carregar músicas.</string>
+
+    <string name="action_sort">Misturar músicas</string>
+
 </resources>
