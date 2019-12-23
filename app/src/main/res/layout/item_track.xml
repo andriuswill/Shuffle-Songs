@@ -6,7 +6,7 @@
     android:layout_height="124dp"
     tools:background="@color/colorPrimary">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/img_track"
         android:layout_width="72dp"
         android:layout_height="72dp"

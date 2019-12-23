@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity(), MainContract.View {
 
         recyclerview_tracks.layoutManager = LinearLayoutManager(this)
         recyclerview_tracks.adapter = tracksAdapter
+        recyclerview_tracks.setItemViewCacheSize(15)
+
     }
 
     override fun showTracks(tracks: ArrayList<Track>){

@@ -45,7 +45,7 @@ class TracksAdapter: RecyclerView.Adapter<TracksAdapter.TrackViewHolder>() {
         fun bindView(track: Track, isLast: Boolean) {
             with(itemView) {
                 img_track.setImageResource(android.R.color.transparent)
-                RequestImage(img_track, track.imgUrl).execute()
+                RequestImage(img_track, track.imgUrl, context.resources).execute()
                 text_title.text = track.title
                 text_artist.text = track.artist
                 if (isLast){
